@@ -15,6 +15,7 @@ public class Model {
 	
 	private Graph<Country, DefaultEdge> graph ;
 	private Map<Integer,Country> countriesMap ;
+	private String s;
 	
 	public Model() {
 		this.countriesMap = new HashMap<>() ;
